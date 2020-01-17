@@ -38,7 +38,7 @@ class TodoForm extends React.Component {
                 type="text"
                 name="todo-input"
                 className="form-control"
-                placeholder={this.state.add}
+                value={this.state.add}
                 onChange={this.handleChange}
               />
             </div>
